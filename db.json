@@ -1,0 +1,32 @@
+{
+  "contacts": [
+    {
+      "id_no": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "mobile": 9876543210,
+      "email": "john@example.com"
+    },
+    {
+      "id_no": 2,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "mobile": 9123456789,
+      "email": "jane@example.com"
+    },
+    {
+      "id_no": 3,
+      "firstname": "Bob",
+      "lastname": "Johnson",
+      "mobile": 8765432109,
+      "email": "bob@example.com"
+    },
+    {
+      "id_no": 4,
+      "firstname": "Alice",
+      "lastname": "Brown",
+      "mobile": 7654321098,
+      "email": "alice@example.com"
+    }
+  ]
+}

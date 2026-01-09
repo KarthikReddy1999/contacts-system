@@ -1,0 +1,28 @@
+<div>
+    <h3 class="mt-5 mb-3">Contact list</h3>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (contact of contacts; track contact.id_no) {
+            <tr>
+                <td>{{contact.id_no}}</td>
+                <td>{{contact.firstname}} {{contact.lastname}}</td>
+                <td>{{contact.mobile}}</td>
+                <td>{{contact.email}}</td>
+                <td>
+                    <button class='btn btn-sm btn-danger mx-1' (click)="deleteContact(contact.id_no)">Delete</button>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
